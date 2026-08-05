@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Mail, Building, ShieldCheck } from 'lucide-react';
+import { ArrowRight, Mail, Building, ShieldCheck, User } from 'lucide-react';
 import { ORGANIZERS } from '../../config/conferenceData';
 import { SectionHeader } from '../common/SectionHeader';
 
@@ -29,11 +29,17 @@ export const OrganizersPreview: React.FC = () => {
               className="group bg-white dark:bg-slate-900 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-md overflow-hidden hover:shadow-2xl hover:border-nit-gold/50 transition-all duration-300"
             >
               <div className="relative h-64 overflow-hidden bg-slate-100 dark:bg-slate-800">
-                <img
-                  src={member.image}
-                  alt={member.name}
-                  className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
-                />
+                {member.image ? (
+                  <img
+                    src={member.image}
+                    alt={member.name}
+                    className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+                  />
+                ) : (
+                  <div className="w-full h-full flex items-center justify-center text-slate-300 dark:text-slate-600">
+                    <User className="w-20 h-20" />
+                  </div>
+                )}
                 <div className="absolute top-3 left-3 bg-nit-navy/90 text-nit-gold text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full border border-nit-gold/40">
                   {member.role}
                 </div>

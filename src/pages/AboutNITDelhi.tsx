@@ -17,11 +17,11 @@ export const AboutNITDelhi: React.FC = () => {
 
   const galleryImages = [
     { url: CONFERENCE_INFO.organizer.campusFrontGate, title: 'NIT Delhi Front Campus Gate' },
-    { url: 'https://images.unsplash.com/photo-1562774053-701939374585?w=600&auto=format&fit=crop&q=80', title: 'Main Administrative & Academic Block' },
-    { url: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600&auto=format&fit=crop&q=80', title: 'Advanced Nanotechnology Cleanroom' },
+    { url: '/images/NITD/MainAdminstrative_and_Academic_Block.webp', title: 'Main Administrative & Academic Block' },
+    { url: '/images/NITD/Nanotechnology_lab.jpg', title: 'Advanced Nanotechnology Cleanroom' },
     { url: 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=600&auto=format&fit=crop&q=80', title: 'Central Research Facility (CRF)' },
     { url: 'https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?w=600&auto=format&fit=crop&q=80', title: 'Central Library & Learning Resource Center' },
-    { url: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&auto=format&fit=crop&q=80', title: 'Smart Lecture Complex' },
+    { url: '/images/NITD/Smart_Lecture_Complex.jpeg', title: 'Smart Lecture Complex' },
   ];
 
   const departments = [
@@ -152,7 +152,7 @@ export const AboutNITDelhi: React.FC = () => {
           <div className="p-8 md:p-12 bg-slate-50 dark:bg-slate-900 rounded-3xl border border-nit-gold/40 shadow-xl grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
             <div className="md:col-span-4 text-center">
               <img
-                src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80"
+                src="/images/director_Ajay_NITDelhi.webp"
                 alt="Prof. Ajay K. Sharma Director"
                 className="w-44 h-44 rounded-2xl object-cover mx-auto shadow-lg border-2 border-nit-gold"
               />

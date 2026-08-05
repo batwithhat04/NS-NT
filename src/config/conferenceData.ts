@@ -13,7 +13,7 @@ export const CONFERENCE_INFO = {
   venue: {
     name: 'National Institute of Technology (NIT) Delhi Campus',
     address: 'Plot No. FA1, Zone P1, GT Karnal Road, Narela, Delhi - 110040, India',
-    mapEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3496.084478330107!2d77.10098487627447!3d28.806550775570884!2m21!1m2!0zMjh_NDgnMjMuNiJOIDc3wrAwNicxMS41IkU!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390da89b2db16027%3A0xc39f8d1e2e92c2a!2sNational%20Institute%20of%20Technology%20Delhi!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin',
+    mapEmbedUrl: 'https://maps.google.com/maps?q=National+Institute+of+Technology+Delhi,+Narela&t=&z=15&ie=UTF8&iwloc=&output=embed',
     city: 'New Delhi',
     country: 'India',
   },
@@ -281,7 +281,7 @@ export const ORGANIZERS: CommitteeMember[] = [
     institution: 'National Institute of Technology (NIT) Delhi',
     department: 'Directorate',
     role: 'patron',
-    image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80',
+    image: '/images/director_Ajay_NITDelhi.webp',
     email: 'director@nitdelhi.ac.in',
     bio: 'Distinguished Director of NIT Delhi with over 30 years of research leadership in optical communications, photonics, and nanotechnology.',
     linkedIn: 'https://linkedin.com',
@@ -293,7 +293,7 @@ export const ORGANIZERS: CommitteeMember[] = [
     designation: 'Director',
     institution: 'National Institute of Technology (NIT) Uttarakhand',
     role: 'patron',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80',
+    image: null,
     email: 'director@nituk.ac.in',
     bio: 'Prominent researcher and administrator fostering collaborative technical education across premier institutions.'
   },
@@ -303,7 +303,7 @@ export const ORGANIZERS: CommitteeMember[] = [
     designation: 'Director',
     institution: 'CSIR - National Physical Laboratory (CSIR-NPL), New Delhi',
     role: 'patron',
-    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop&q=80',
+    image: null,
     email: 'director@nplindia.org',
     bio: 'Lead scientist in metamaterials, nanophotonics, and precision quantum metrology standards.'
   },
@@ -313,7 +313,7 @@ export const ORGANIZERS: CommitteeMember[] = [
     designation: 'Director General',
     institution: 'Khalsa College of Engineering & Technology (KCET), Amritsar',
     role: 'patron',
-    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&auto=format&fit=crop&q=80',
+    image: null,
     email: 'dg@kcet.ac.in',
     bio: 'Eminent educational strategist instrumental in establishing inter-institutional research partnerships.'
   },
@@ -326,7 +326,7 @@ export const ORGANIZERS: CommitteeMember[] = [
     institution: 'National Institute of Technology (NIT) Delhi',
     department: 'Department of Computer Science & Engineering',
     role: 'chair',
-    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&auto=format&fit=crop&q=80',
+    image: '/images/prof_geeta_sikka_3c8bbc.webp',
     email: 'geetasikka@nitdelhi.ac.in',
     bio: 'Dean (Academics) at NIT Delhi leading academic excellence and computational engineering research.'
   },
@@ -337,7 +337,7 @@ export const ORGANIZERS: CommitteeMember[] = [
     institution: 'National Institute of Technology (NIT) Delhi',
     department: 'Department of Electronics & Communication',
     role: 'chair',
-    image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&auto=format&fit=crop&q=80',
+    image: '/images/prof_jyoteesh_malhotra_af803a.webp',
     email: 'jyoteesh@nitdelhi.ac.in',
     bio: 'Dean (R&C) at NIT Delhi spearheading sponsored research projects and industrial nanotech consultancy.'
   },
@@ -348,7 +348,7 @@ export const ORGANIZERS: CommitteeMember[] = [
     institution: 'National Institute of Technology (NIT) Delhi',
     department: 'Department of Electrical Engineering',
     role: 'chair',
-    image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&auto=format&fit=crop&q=80',
+    image: '/images/prof_manoj_kumar_taleja_3c8ba5.webp',
     email: 'manojkumar@nitdelhi.ac.in',
     bio: 'Dean (Faculty Welfare) at NIT Delhi focusing on faculty growth and advanced laboratory development.'
   },
@@ -361,7 +361,7 @@ export const ORGANIZERS: CommitteeMember[] = [
     institution: 'National Institute of Technology (NIT) Delhi',
     department: 'Department of Electronics & Communication Engineering',
     role: 'secretary',
-    image: 'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=400&auto=format&fit=crop&q=80',
+    image: '/images/dr_rikmantra_basu_3c8c71.webp',
     email: 'rikbasu@nitdelhi.ac.in',
     bio: 'Head of ECE Department at NIT Delhi specializing in semiconductor optoelectronic devices, heterostructures, and nanophotonic sensors.'
   },
@@ -372,7 +372,7 @@ export const ORGANIZERS: CommitteeMember[] = [
     institution: 'National Institute of Technology (NIT) Delhi',
     department: 'Department of Applied Sciences (Physics)',
     role: 'secretary',
-    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop&q=80',
+    image: '/images/dr_prashant_kumar_af8149.webp',
     email: 'prashantkumar@nitdelhi.ac.in',
     bio: 'Leading investigator at NIT Delhi in nanomaterials for energy storage, supercapacitors, and green hydrogen.'
   },
@@ -383,7 +383,7 @@ export const ORGANIZERS: CommitteeMember[] = [
     institution: 'National Institute of Technology (NIT) Delhi',
     department: 'Department of Applied Sciences (Chemistry)',
     role: 'convener',
-    image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&auto=format&fit=crop&q=80',
+    image: null,
     email: 'anupamasharma@nitdelhi.ac.in',
     bio: 'Researcher at NIT Delhi focused on functional nano-catalysts, green chemistry, and polymer nanocomposites.'
   },
@@ -393,7 +393,7 @@ export const ORGANIZERS: CommitteeMember[] = [
     designation: 'Head of Department (Physics)',
     institution: 'KCET Amritsar',
     role: 'convener',
-    image: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&auto=format&fit=crop&q=80',
+    image: null,
     email: 'ripudaman@kcet.ac.in',
     bio: 'Expert in thin film synthesis and solar cell nanostructures.'
   },
@@ -405,7 +405,7 @@ export const ORGANIZERS: CommitteeMember[] = [
     designation: 'Former Secretary DST & Professor',
     institution: 'IIT Kanpur',
     role: 'advisory',
-    image: 'https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=400&auto=format&fit=crop&q=80',
+    image: null,
     bio: 'SS Bhatnagar laureate and world authority on soft nano-patterning and self-assembly.'
   },
   {
@@ -414,7 +414,7 @@ export const ORGANIZERS: CommitteeMember[] = [
     designation: 'President',
     institution: 'Australian Academy of Science & ANU Canberra',
     role: 'advisory',
-    image: 'https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?w=400&auto=format&fit=crop&q=80',
+    image: null,
     bio: 'Global pioneer in semiconductor nanowires and optoelectronic device fabrication.'
   },
   {
@@ -423,7 +423,7 @@ export const ORGANIZERS: CommitteeMember[] = [
     designation: 'Chair, Department of Materials Science & NanoEngineering',
     institution: 'Rice University, USA',
     role: 'advisory',
-    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&auto=format&fit=crop&q=80',
+    image: null,
     bio: 'Co-inventor of carbon nanotube synthesis techniques and 2D materials pioneer.'
   }
 ];
@@ -438,7 +438,7 @@ export const SPEAKERS: Speaker[] = [
     category: 'keynote',
     researchArea: 'Carbon Nanotubes, Graphene & Thermoelectric Nanostructures',
     bio: 'International pioneer in the physics of low-dimensional carbon nanostructures and quantum thermal transport.',
-    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500&auto=format&fit=crop&q=80',
+    image: null,
     publicationsUrl: 'https://scholar.google.com',
     websiteUrl: 'https://mit.edu'
   },
@@ -451,7 +451,7 @@ export const SPEAKERS: Speaker[] = [
     category: 'keynote',
     researchArea: 'Solid State Chemistry, Transition Metal Oxides & 2D Nanomaterials',
     bio: 'Bharat Ratna recipient and world-renowned chemist known for foundational contributions to novel nanostructures.',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&auto=format&fit=crop&q=80',
+    image: null,
     publicationsUrl: 'https://scholar.google.com'
   },
   {
@@ -463,7 +463,7 @@ export const SPEAKERS: Speaker[] = [
     category: 'invited',
     researchArea: 'Advanced Carbon Products, Carbon Nanofibers & Composites',
     bio: 'Specialist in high-performance carbon-carbon composites and EMI shielding nanomaterials.',
-    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&auto=format&fit=crop&q=80',
+    image: null,
     publicationsUrl: 'https://nplindia.org'
   },
   {
@@ -475,7 +475,7 @@ export const SPEAKERS: Speaker[] = [
     category: 'invited',
     researchArea: 'Topological Insulators & Quantum Spintronics',
     bio: 'Leading experimentalist in topological superconductor synthesis and quantum electronic devices.',
-    image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=500&auto=format&fit=crop&q=80',
+    image: null,
     websiteUrl: 'https://uni-koeln.de'
   },
   {
@@ -487,7 +487,7 @@ export const SPEAKERS: Speaker[] = [
     category: 'featured',
     researchArea: 'Nanostructured Solar Cells & Piezoelectric Energy Harvesting',
     bio: 'Renowned authority on nano-piezoelectric nanogenerators and functional magnetic oxide thin films.',
-    image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500&auto=format&fit=crop&q=80',
+    image: null,
     publicationsUrl: 'https://iitd.ac.in'
   },
   {
@@ -499,7 +499,7 @@ export const SPEAKERS: Speaker[] = [
     category: 'featured',
     researchArea: 'Nanomechanics, Atomic Force Microscopy & Carbon Nanotube Mechanics',
     bio: 'Pioneered direct mechanical testing of single carbon nanotubes and nanowires.',
-    image: 'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=500&auto=format&fit=crop&q=80',
+    image: null,
     websiteUrl: 'https://illinois.edu'
   }
 ];

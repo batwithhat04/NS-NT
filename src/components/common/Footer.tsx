@@ -213,19 +213,19 @@ export const Footer: React.FC = () => {
             <div className="pt-2">
               <h5 className="text-xs font-semibold text-white mb-2">Connect with NIT Delhi</h5>
               <div className="flex items-center gap-2 text-slate-300">
-                <a href="https://facebook.com" target="_blank" rel="noreferrer" className="p-2 bg-slate-900 hover:bg-nit-navy hover:text-nit-gold rounded-lg transition-colors" aria-label="Facebook">
+                <a href="https://www.facebook.com/OfficialNITDelhi" target="_blank" rel="noreferrer" className="p-2 bg-slate-900 hover:bg-nit-navy hover:text-nit-gold rounded-lg transition-colors" aria-label="Facebook">
                   <Facebook className="w-4 h-4" />
                 </a>
-                <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="p-2 bg-slate-900 hover:bg-nit-navy hover:text-nit-gold rounded-lg transition-colors" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/school/national-institute-of-technology-delhi/" target="_blank" rel="noreferrer" className="p-2 bg-slate-900 hover:bg-nit-navy hover:text-nit-gold rounded-lg transition-colors" aria-label="LinkedIn">
                   <Linkedin className="w-4 h-4" />
                 </a>
-                <a href="https://twitter.com" target="_blank" rel="noreferrer" className="p-2 bg-slate-900 hover:bg-nit-navy hover:text-nit-gold rounded-lg transition-colors" aria-label="Twitter">
+                <a href="https://x.com/NITDofficial/" target="_blank" rel="noreferrer" className="p-2 bg-slate-900 hover:bg-nit-navy hover:text-nit-gold rounded-lg transition-colors" aria-label="Twitter">
                   <Twitter className="w-4 h-4" />
                 </a>
-                <a href="https://youtube.com" target="_blank" rel="noreferrer" className="p-2 bg-slate-900 hover:bg-nit-navy hover:text-nit-gold rounded-lg transition-colors" aria-label="YouTube">
+                <a href="https://www.youtube.com/@nit-delhi8014" target="_blank" rel="noreferrer" className="p-2 bg-slate-900 hover:bg-nit-navy hover:text-nit-gold rounded-lg transition-colors" aria-label="YouTube">
                   <Youtube className="w-4 h-4" />
                 </a>
-                <a href="https://instagram.com" target="_blank" rel="noreferrer" className="p-2 bg-slate-900 hover:bg-nit-navy hover:text-nit-gold rounded-lg transition-colors" aria-label="Instagram">
+                <a href="https://www.instagram.com/nitdofficial" target="_blank" rel="noreferrer" className="p-2 bg-slate-900 hover:bg-nit-navy hover:text-nit-gold rounded-lg transition-colors" aria-label="Instagram">
                   <Instagram className="w-4 h-4" />
                 </a>
               </div>

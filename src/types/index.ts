@@ -21,7 +21,7 @@ export interface CommitteeMember {
   institution: string;
   department?: string;
   role: 'patron' | 'chair' | 'secretary' | 'convener' | 'local' | 'advisory';
-  image: string;
+  image: string | null;
   email?: string;
   bio?: string;
   linkedIn?: string;
@@ -38,7 +38,7 @@ export interface Speaker {
   category: 'keynote' | 'invited' | 'featured';
   researchArea: string;
   bio: string;
-  image: string;
+  image: string | null;
   publicationsUrl?: string;
   websiteUrl?: string;
 }

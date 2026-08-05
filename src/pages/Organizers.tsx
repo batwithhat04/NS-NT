@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Search, Mail, Linkedin, BookOpen, Building, X, UserCheck, ShieldCheck } from 'lucide-react';
+import { Search, Mail, Linkedin, BookOpen, Building, X, UserCheck, ShieldCheck, User } from 'lucide-react';
 import { ORGANIZERS } from '../config/conferenceData';
 import { SEO } from '../components/common/SEO';
 import { SectionHeader } from '../components/common/SectionHeader';
@@ -105,11 +105,17 @@ export const Organizers: React.FC = () => {
                 >
                   <div>
                     <div className="relative h-64 overflow-hidden bg-slate-100 dark:bg-slate-800">
-                      <img
-                        src={member.image}
-                        alt={member.name}
-                        className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
-                      />
+                      {member.image ? (
+                        <img
+                          src={member.image}
+                          alt={member.name}
+                          className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+                        />
+                      ) : (
+                        <div className="w-full h-full flex items-center justify-center text-slate-300 dark:text-slate-600">
+                          <User className="w-20 h-20" />
+                        </div>
+                      )}
                       <div className="absolute top-3 left-3 bg-nit-navy/90 text-nit-gold text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full border border-nit-gold/40">
                         {member.role}
                       </div>
@@ -163,11 +169,17 @@ export const Organizers: React.FC = () => {
 
             <div className="p-6 space-y-6 max-h-[75vh] overflow-y-auto">
               <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6">
-                <img
-                  src={selectedMember.image}
-                  alt={selectedMember.name}
-                  className="w-36 h-36 rounded-2xl object-cover shadow-lg border-2 border-nit-gold shrink-0"
-                />
+                {selectedMember.image ? (
+                  <img
+                    src={selectedMember.image}
+                    alt={selectedMember.name}
+                    className="w-36 h-36 rounded-2xl object-cover shadow-lg border-2 border-nit-gold shrink-0"
+                  />
+                ) : (
+                  <div className="w-36 h-36 rounded-2xl bg-slate-100 dark:bg-slate-800 border-2 border-nit-gold shrink-0 flex items-center justify-center text-slate-300 dark:text-slate-600 shadow-lg">
+                    <User className="w-16 h-16" />
+                  </div>
+                )}
 
                 <div className="space-y-2 text-center sm:text-left">
                   <h4 className="text-xl font-bold text-slate-900 dark:text-white font-heading">

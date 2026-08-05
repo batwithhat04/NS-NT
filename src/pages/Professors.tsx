@@ -93,11 +93,17 @@ export const Professors: React.FC = () => {
               >
                 <div>
                   <div className="relative h-72 overflow-hidden bg-slate-100 dark:bg-slate-800">
-                    <img
-                      src={spk.image}
-                      alt={spk.name}
-                      className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
-                    />
+                    {spk.image ? (
+                      <img
+                        src={spk.image}
+                        alt={spk.name}
+                        className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+                      />
+                    ) : (
+                      <div className="w-full h-full flex items-center justify-center text-slate-300 dark:text-slate-600">
+                        <User className="w-24 h-24" />
+                      </div>
+                    )}
                     <div className="absolute top-3 left-3 bg-nit-navy/90 text-nit-gold text-[10px] font-extrabold uppercase tracking-wider px-3 py-1 rounded-full border border-nit-gold/40">
                       {spk.category} Lecture
                     </div>
@@ -188,11 +194,17 @@ export const Professors: React.FC = () => {
 
             <div className="p-6 space-y-6 max-h-[75vh] overflow-y-auto">
               <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6">
-                <img
-                  src={selectedSpeaker.image}
-                  alt={selectedSpeaker.name}
-                  className="w-36 h-36 rounded-2xl object-cover shadow-lg border-2 border-nit-gold shrink-0"
-                />
+                {selectedSpeaker.image ? (
+                  <img
+                    src={selectedSpeaker.image}
+                    alt={selectedSpeaker.name}
+                    className="w-36 h-36 rounded-2xl object-cover shadow-lg border-2 border-nit-gold shrink-0"
+                  />
+                ) : (
+                  <div className="w-36 h-36 rounded-2xl bg-slate-100 dark:bg-slate-800 border-2 border-nit-gold shrink-0 flex items-center justify-center text-slate-300 dark:text-slate-600 shadow-lg">
+                    <User className="w-16 h-16" />
+                  </div>
+                )}
 
                 <div className="space-y-2 text-center sm:text-left">
                   <h4 className="text-xl font-bold text-slate-900 dark:text-white font-heading">
